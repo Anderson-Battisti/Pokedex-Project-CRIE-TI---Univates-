@@ -12,9 +12,9 @@ export function Header() {
       <HeaderContainer>
         <HeaderLogo src={Logo} />
         <NavMenu>
-          <NavLink>Home</NavLink>
-          <NavLink>Pokedex</NavLink>
-          <NavLink>Settings</NavLink>
+          <NavLink href="/">Home</NavLink>
+          <NavLink href="/pokedex">Pokedex</NavLink>
+          <NavLink href="/settings">Settings</NavLink>
         </NavMenu>
       </HeaderContainer>
     </HeaderDiv>

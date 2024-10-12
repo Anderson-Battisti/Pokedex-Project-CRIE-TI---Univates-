@@ -6,7 +6,7 @@ export function Home() {
     <>
       <BannerContainer>
         <BannerTextContainer>
-          <h2>Acesse sua pokedex e registre seus pokemons favoritos</h2>
+          <h2>Acesse sua Pokedex e registre seus pokemons favoritos</h2>
         </BannerTextContainer>
         <img src={banner} />
       </BannerContainer>

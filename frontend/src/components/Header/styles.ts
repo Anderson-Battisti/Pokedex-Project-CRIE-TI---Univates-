@@ -17,6 +17,14 @@ export const HeaderContainer = styled.div`
 export const HeaderLogo = styled.img`
   width: 200px;
   height: auto;
+
+  & {
+    transition: transform 0.5s;
+
+    &:hover {
+      transform: scale(1.15);
+    }
+  }
 `;
 
 export const NavMenu = styled.nav`
@@ -27,8 +35,17 @@ export const NavMenu = styled.nav`
 export const NavLink = styled.a`
   color: ${(props) => props.theme["gray-900"]};
   font-weight: bold;
+  text-decoration: none;
 
-  &:hover {
-    color: ${(props) => props.theme["primary-300"]};
+  & 
+  {
+    transition: transform 0.5s;
+
+    &:hover 
+    {
+      color: ${(props) => props.theme["red-ball"]};
+      transform: scale(1.15);
+    }
   }
+  
 `;

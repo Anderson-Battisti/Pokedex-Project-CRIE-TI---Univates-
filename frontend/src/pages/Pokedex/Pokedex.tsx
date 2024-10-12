@@ -6,8 +6,7 @@ export function Pokedex() {
       <Card />
       <Card />  
       <Card />
-      <Card />
-      
+      <Card />  
     </div>
   );
 }
